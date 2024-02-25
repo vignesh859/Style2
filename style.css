@@ -103,7 +103,7 @@ input[type="text"]
     justify-content: space-between;
     align-content: center;
     margin-top: 10em;
-    background-image: url('bg-curve-desktop.svg');
+    background-image: url('images/bg-curve-desktop.svg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -336,12 +336,13 @@ input[type="text"]::placeholder {
 }
 
 
-   @media (max-width: 500px) {
+   @media (max-width: 800px) {
     body {
         font-size: 0.8em;
     }
 
     .nav-bar {
+        font-size: 0.8em;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -349,6 +350,7 @@ input[type="text"]::placeholder {
     }
 
     .logo {
+        height: 10%;
         position: relative;
         left: -2em;
         max-width: 100%;
@@ -370,7 +372,9 @@ input[type="text"]::placeholder {
 
 
     
-
+    .btn-2{
+        margin-bottom: 2em;
+    }
     
     .body-flex {
         flex-direction: column; 
@@ -380,20 +384,22 @@ input[type="text"]::placeholder {
         justify-content: center;
     }
     .img-1{
-        position: relative;
-        left: 2em;
+        text-align: center;
         max-width: 100%;
         order: -1;
         margin-bottom: 1em;
         align-items: center;
     }
     .text-div {
+        position:static;
+        margin-right: 4em;
         max-width: 100%; 
         margin-bottom: 1em;
         text-align: center;
     }
 .btn-1{
     margin-top: 1em;
+    margin-right: 1em;
 }
 
     .flex-2 {
@@ -402,7 +408,7 @@ input[type="text"]::placeholder {
         align-items: center;
         justify-content: center;
         margin-top: 3em; 
-        background-image: url('images/bg-curve-mobile.svg');
+        background-image: url('bg-curve-mobile.svg');
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
@@ -419,6 +425,7 @@ input[type="text"]::placeholder {
         align-items: center;
     }
     .img-2{
+        text-align: center;
         max-width: 100%;
         order: -1;
     }
@@ -458,6 +465,7 @@ input[type="text"]::placeholder {
 
     }
     .bod{
+        padding-right: 3em;
         margin: auto;
        
     }
@@ -471,10 +479,11 @@ input[type="text"]::placeholder {
 
     min-height: 2em;
     width: 200px;
-    padding: .5em;
+    padding: 0.6em 1em;
     border:2px solid hsl(0, 0%, 75%);
     text-align: center;
     margin:auto;
+    margin-left: 1em;
 }
 .container{
     flex-direction: column;
@@ -528,6 +537,13 @@ input[type="text"]::placeholder {
         align-items: flex-start;
         padding-left: 5em;
         margin-bottom: 3em; 
+    }
+    .g1{
+        max-height: 8%;
+        max-width: 8%;
+    }
+    .refer{
+        text-align: center;
     }
     .logo1{
         position: relative;

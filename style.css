@@ -1,0 +1,536 @@
+/* 
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+}
+
+.logo{
+    margin-left: 2em;
+} */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 2em;
+
+}
+.logo{
+    margin-left: 3em;
+    padding-top: 1em ;
+    text-align: center;
+}
+
+.nav li {
+    margin: 0;
+    padding: 0 1em; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+
+.body-flex{
+    margin-left: 3em;
+    margin-top: 3.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 48%;
+}
+.abcd{
+    max-width: 80%;
+    
+}
+.para{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.header{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+}
+.form-1{
+    margin-left: 0;
+}
+input[type="text"]
+{
+    min-height: 2em;
+    width: 350px;
+    padding: .5em;
+    border:2px solid hsl(0, 0%, 75%);
+    border-radius: 3%;
+}
+.btn-1 {
+   
+    margin-left: 1em;
+    min-width: 175px;
+    padding: 15px ;
+    border: 2px solid hsl(240, 75%, 98%);
+    color: white;
+    background-color:hsl(224, 93%, 58%);
+    border-radius: 3%;
+}
+
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10em;
+    background-image: url('images/bg-curve-desktop.svg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.efgh{
+    margin-top: 10em;
+    position: relative;
+    top:3em;
+    width: 80%;
+    max-height: 90%;
+    
+    
+}
+.text-2{
+    margin-left: 3em;
+    margin-top: 10em;
+    width: 100%;
+    margin-bottom: 5em;
+}
+.title-1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+}
+.para-1{
+    max-width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-top: 0.8em;
+}
+.para-3{
+    width: 24.5%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-top: 0.8em;
+    border-bottom: 2px solid green;
+    color: green;
+}
+.box{
+    margin-top: 1.8em;
+    width:45%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    word-spacing: 0.5em;
+    line-height: 1.4em;
+    border: 3.5px solid hsl(240, 75%, 98%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2em 1.5em;
+    border-radius: 2%;
+    background-color: white;
+}
+.quotes{
+    margin-bottom: 0.5em;
+}
+.footer{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.xyz{
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    
+}
+.colo
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.para-5{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 0.6em;
+    margin-bottom: 1.2em;
+}
+.univ{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    position: relative;
+    top: 0.8em;
+    right:7.2em
+}
+.ribbon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+
+}
+.r1{
+    width: 100%;
+    margin-left: 3em;
+    padding: 3em 1em;
+}
+.tit{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: white;
+}
+.bod{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: white;
+    line-height: 2em;
+    width: 42%;
+}
+.r2{
+    width: 50%;
+}
+
+input[type="text"]::placeholder {
+    font-weight: 200;
+    color:hsl(0, 0%, 75%);
+}
+.bt{
+    margin-top: 1em;
+}
+
+.btn-2 {
+   
+    
+    min-width: 175px;
+    padding: 15px ;
+    border: 2px solid hsl(240, 75%, 98%);
+    color: white;
+    background-color:hsl(224, 93%, 58%);
+    border-radius: 3%;
+}
+.etc{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.container{
+    background-color: hsl(243, 87%, 12%);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+}
+.logo1{
+    position: relative;
+    top:10em;
+    left:1.5em;
+    margin-left: 3em;
+}
+.flex-3{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 10em;
+}
+.personal{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    margin-left: 1em;
+}
+.phn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 1em;
+}
+.phn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.phone1{
+    padding-left: 1em;
+}
+.i2{
+    padding-right: 0.5em;
+}
+.i1{
+    margin-left: 3.5em;
+}
+.join{
+     position: relative;
+     top:3.7em;
+    margin-bottom: 6em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.contact{
+    margin-top: 0.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.phone{
+    margin-left: 1em;
+}
+.g1{
+    border: 1px solid white;
+    padding: 0.4em;
+    border-radius: 50%;
+    margin-left: 1em;
+}
+.etcc{
+    text-align: center;
+}
+.refer{
+    position: relative;
+    right:1em;
+}
+
+
+   @media (max-width: 800px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+    }
+
+    .logo {
+        position: relative;
+        left: -2em;
+        max-width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 2.5em;
+        padding: 0;
+    }
+
+    .nav li {
+        white-space: nowrap; 
+        padding: 0 5px; 
+    }
+
+
+    
+
+    
+    .body-flex {
+        flex-direction: column; 
+        margin-top: 1em;
+        margin-bottom: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-1{
+        position: relative;
+        left: 2em;
+        max-width: 100%;
+        order: -1;
+        margin-bottom: 1em;
+        align-items: center;
+    }
+    .text-div {
+        max-width: 100%; 
+        margin-bottom: 1em;
+        text-align: center;
+    }
+.btn-1{
+    margin-top: 1em;
+}
+
+    .flex-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3em; 
+        background-image: url('images/bg-curve-mobile.svg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .text-2{
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+        margin-left: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-2{
+        max-width: 100%;
+        order: -1;
+    }
+    .para-1,.para-2{
+        width: 100%;
+        text-align: center;
+    }
+    .para-3{
+        width: 50%;
+    }
+
+    .box {
+        width: 50%; 
+    }
+    .crc{
+        position: relative;
+        bottom: 3.5em;
+        left: 7.5em;
+    }
+    
+
+    .footer {
+        flex-direction: column; 
+        align-items: center;
+        
+    }
+    .ribbon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .r1{
+        width: 100%;
+        text-align: center;
+
+    }
+    .bod{
+        margin: auto;
+       
+    }
+    .r2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+    input[type="text"]
+{
+
+    min-height: 2em;
+    width: 200px;
+    padding: .5em;
+    border:2px solid hsl(0, 0%, 75%);
+    text-align: center;
+    margin:auto;
+}
+.container{
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    width: 100%;
+
+}
+.fd{
+    position: relative;
+    bottom: 7em;
+    right: 5em;
+}
+.personal{
+    margin-left: 0.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.phn{
+    padding: 0;
+    position: relative;
+    right: 2em;
+}
+.phn1{
+    padding: 0;
+    position: relative;
+    right: 1.5em;
+}
+.i1{
+    position: relative;
+    right: 3em;
+}
+.phone1{
+    position: relative;
+    right: 2.5em;
+}
+    .xyz {
+        margin-right: 0.6em;
+        margin-top: 0.6em; 
+    }
+
+    .contact{
+        margin-top: 0.6em;
+    }
+
+    .flex-3 {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding-left: 5em;
+        margin-bottom: 3em; 
+    }
+    .logo1{
+        position: relative;
+        left:5em
+    }
+}

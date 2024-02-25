@@ -103,7 +103,7 @@ input[type="text"]
     justify-content: space-between;
     align-content: center;
     margin-top: 10em;
-    background-image: url('images/bg-curve-desktop.svg');
+    background-image: url('./bg-curve-desktop.svg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ input[type="text"]::placeholder {
         align-items: center;
         justify-content: center;
         margin-top: 3em; 
-        background-image: url('bg-curve-mobile.svg');
+        background-image: url('./bg-curve-mobile.svg');
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
